@@ -1,0 +1,20 @@
+/* footer */
+
+footer .footer-bottom .col1 .logo{
+    transform: scale(.8);
+}
+.footer-bottom .col2 ul{
+    margin-left: -29px;
+    margin-top: -29px;
+}
+.footer-bottom .col3 ul{
+    display: block;
+    margin-left: -23px;
+    margin-top: -29px;
+}
+footer .footer-bottom .col  .header div{
+margin-top: -27px;
+}
+.footer-bottom{
+    align-items: center;
+}

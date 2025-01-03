@@ -1,0 +1,237 @@
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+/* Hero */
+.project-container{
+    margin-top: -17px;
+}
+.projects{
+    padding: 20px 50px;
+}
+.project-header{
+    background-color: #17224d;
+    color: white;
+    padding: 20px;
+    position: relative;
+    width: vw;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    height: 34vh;
+}
+.project-header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
+.project-header h4{
+    position: absolute;
+    bottom: -130px;
+    background-color: whitesmoke;
+    color: #17224d;
+    padding: 20px;
+    font-size: 21px;
+    width: 50%;
+   right: 50px;
+    border: 1px solid #030b27;
+    border-radius: 0px 0px 12px 12px;
+   text-transform: none;   
+   margin-bottom: 30px;
+
+}
+/* projets  */
+.projects{
+    margin-top: 150px;
+    width: 100vw;
+    margin-right: 20px;
+}
+.projects .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+.projects .header span {
+    display: flex;
+    align-items: center;
+     gap: 10px;
+     text-transform: capitalize;
+     font-size: 19px;
+}
+
+.projects .header span  h3{
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #030b27;
+}
+.projects .header span div p{
+    margin-bottom: -4px;
+
+}
+
+.projects .header div button{
+    background: transparent;
+    font-size: 18px;
+    color: #030b27;
+    border: 1px solid #030b27;
+    outline: none;
+    padding: 4px 7px;
+    border-radius: 7px;
+    cursor: pointer;
+     margin-left: 5px;
+     margin-right: 5px;
+     transition: .5s;
+}
+.projects .header div button:hover{
+    transition: .5s;
+    background-color:#030b27;
+    color: #17e9e1;
+}
+
+.project{
+    width: 80vw;
+    border: 1px solid #0b1436;
+position: relative;
+height: 500px;
+margin-bottom: 30px;
+border-radius: 23px;
+cursor: pointer;
+overflow: hidden;
+}
+.project img{
+    object-fit: cover;
+    height: 100%;
+}
+.food {
+    margin-left: 8vw;
+    margin-bottom: 200px;
+}
+.tube{
+    margin-left: 5vw;
+    margin-top: 200px;
+}
+.project .project-details{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #17224daf;
+    left: 0;
+    cursor:auto;
+    bottom: 0;
+    padding: 20px 40px;
+    padding-bottom: 60px;
+    color: #faf5f5;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  left: 100%;
+  transition: 1.6s;
+}
+.project:hover .project-details{
+    left: 0;
+}
+.project-details h3{
+    font-size: 31px;
+    margin-bottom: 20px;
+
+}
+.project-details p{
+    font-size:19px;
+    width: 40%;
+    margin-bottom: 10px;
+}
+.project-details button{
+    background-color: #17224d;
+    color: #17e9e1;
+    border: 2px solid #17e9e1;
+    padding: 7px  10px;
+    font-size: 21px;
+    cursor: pointer;
+    transition: .5s;
+}
+.project-details button:hover{
+    background-color: #17e9e1;
+    color: #17224d;
+}
+.project:hover .project-details{
+    left: 0;
+    transition: .6s;
+}
+
+@media (max-width:1070px) {
+.project-container .project-header h4{
+    margin-bottom: -90px;
+}
+.projects .header span{
+    display: flex;
+    flex-direction: column;
+}
+.projects .header span div {
+    margin-top: -30px;
+}
+    .projects .header span{
+        margin-right: 50px;
+    }
+}
+@media (max-width:768px) {
+   .project-container .project-header h4{
+    transform: scale(.8);
+    margin-bottom: -50px;
+    width: 90vw;
+   } 
+   .project-container .project-header h1{
+  transform: scale(.9);
+}
+.projects .header{
+    padding-left:0;
+    flex-direction: column;
+
+}
+.projects .header div button{
+    background-color: #030b27;
+    color:#17e9e1;
+    margin: 5px;
+    outline: none;
+    border-radius: 0;
+   border: 1px solid  #17e9e1;
+}
+.projects  .header  span  div{
+display: none;
+}
+}
+@media (max-width:540px) {
+    .project-container .project-header h4{
+        margin-bottom: -140px;
+        width: 110vw;
+        right: 0;
+        transform: scale(.7);
+    }
+    .project-container .project-header h1{
+        transform: scale(.8);
+    }
+    
+}
+/* footer */
+footer .footer-bottom .col1 .logo{
+    transform: scale(.8);
+}
+.footer-bottom .col2 ul{
+    margin-left: -29px;
+    margin-top: -29px;
+}
+.footer-bottom .col3 ul{
+    display: block;
+    margin-left: -23px;
+    margin-top: -29px;
+}
+footer .footer-bottom .col  .header div{
+margin-top: -27px;
+}
+.footer-bottom{
+    align-items: center;
+}
