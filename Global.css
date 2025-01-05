@@ -162,6 +162,10 @@ bottom: 0px;
     }
         
     @media (max-width:420px) {
+        nav{
+                display: flex;
+                justify-content: space-around;
+        }
         .logo{
             transform: scale(.8);
             margin-right:80px ;
