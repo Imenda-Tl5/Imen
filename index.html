@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/TL_LOGO.jpg">
     <link rel="stylesheet" href="Home.css">
+
     <link rel="stylesheet" href="./Global.css">
-    <title>Document</title>
+    <title>TIMELORD</title>
 </head>
 <body>
   <nav>
@@ -15,7 +17,6 @@
     <ul class="nav-links">
       <li><a href="./index.html">Home</a></li>
       <li><a href="./About/About.html">About</a></li>
-      <li><a href="./Services/services.html">Services</a></li>
       <li><a href="./projects/Project.html">Projects</a></li>
     </ul>
     <div class="nav-btns">
@@ -32,7 +33,7 @@
           />
         </svg>
       </button>
-      <button class="contact">Contact Me</button>
+      <a href="#msg-box"> <button class="contact">Contact Me</button> </a>
     </div>
   </nav>
   <main>
@@ -43,7 +44,7 @@
           a Full Stack Developer based in Zambia
         </h1>
         <h3>I specialise in creating responsive dynamic websites and APIs</h3>
-        <button>Download CV</button>
+       <a href="./assets/IMENDA NAWA MUNYINDA.pdf" download><button >Download CV</button> </a> 
       </div>
       <div class="right">
         <span></span>
@@ -82,7 +83,7 @@
               and educational platfroms to online stores
             </p>
           </h2>
-          <button>More About me</button>
+       <a href="./About/About.html"><button>More About me</button></a>   
         </div>
       </div>
     </div>
@@ -246,7 +247,7 @@
     </div>
 
     <div class="footer-container">
-      <div class="msg-box">
+      <div id="msg-box" class="msg-box">
         <label class="inputs">
           <input type="text" placeholder="Your Name" />
           <input type="email" placeholder="Your Email" />
@@ -263,9 +264,12 @@
             <h1><span>I</span>MENDA</h1>
           </div>
           <h3>Hi I'm Imenda A full Stack Developer</h3>
-          <button>
-            Download CV
-          </button>
+       <a href="./assets/IMENDA NAWA MUNYINDA.pdf">
+        <button>
+          Download CV
+        </button>
+       </a>
+          
         </div>
         <div class="col col2">
           <div class="header">
@@ -306,7 +310,7 @@
       </div>
     </div>
     <div class="end">
-      <h3>Copy Right 2024| Time Lord | All rights reserved</h3>
+      <h3>© Copy Right 2024| Time Lord | All rights reserved</h3>
     </div>
   </footer>
   <script  src="./Home.js">

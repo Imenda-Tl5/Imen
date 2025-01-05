@@ -7,6 +7,11 @@ body{
     overflow-x: hidden;
 width: 100%;
 }
+a, li{
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
 .header{
     margin-top: 30px;
     display: flex;
@@ -378,6 +383,8 @@ padding-top: 40px;
 }
 .end h3{
     font-weight: 200;
+    display: flex;
+    align-items: center;
 }
 
 @media (max-width:650px) {
@@ -394,6 +401,16 @@ padding-top: 40px;
         width: 80%;
     
     }
+    footer .header{
+        transform: scale(.9);
+        gap: 0;
+    }
+     footer .header h1{
+       transform: scale(.8);
+       font-size: 38px;
+       display: block;
+       margin: 0;
+     }
 }
 @media (max-width:380px) {
     .end{

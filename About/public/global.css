@@ -45,6 +45,10 @@ li,a{
 .logo span{
     color: #17e9e1;
 }
+nav{
+    margin-left: -90px;
+
+}
 .nav-links{
     width: 50%;
     display: flex;
