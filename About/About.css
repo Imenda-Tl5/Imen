@@ -13,8 +13,10 @@ nav .nav-links{
 
 .About-container hr{
     height: 2px;
-    background-color: grey;
+    background-color:#04091b;
     width: 100%;
+    margin-top: -2px;
+    margin-bottom: -2px;
 }
 .About-container .hero {
     background-color: #17224d;
@@ -189,6 +191,8 @@ margin-bottom: 0;
 .container3 .col-left,.col-right{
     width: 50%;
 }
+ 
+
 .container3 .header{
     display: flex;
     height: 70px;
@@ -276,13 +280,16 @@ align-items: flex-start;
         margin-right: 0;
      }
 
-}
     .container3 .col-left img {
         width: 95vw;
         margin-top: 30px;
         margin-left: -50px;
         }
-
+    }
+.education{
+    background-color: #9df8f55e;
+    margin-bottom: -25px;
+}
 .timeline{
     display: flex;
     flex-direction: column;
@@ -311,6 +318,7 @@ align-items: flex-start;
     margin-left: 30px;
     padding: 12px 34px;
     border-radius: 20px;
+    color: rgba(29, 28, 28, 0.836);
 }
 .timeline div h2 p{
     font-size: 29px;

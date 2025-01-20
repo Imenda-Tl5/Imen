@@ -254,6 +254,8 @@ width: 24%;
 font-size: 21px;
 border: none;
 outline: none;
+color: #030b27d8;
+
 border-radius: 7px;
 padding: 10px 13px;}
 @media (max-width:770px) {

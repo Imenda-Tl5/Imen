@@ -14,7 +14,7 @@
         <h1><span>I</span>MENDA</h1>
       </div>
       <ul class="nav-links">
-        <li><a href="../../Home.html">Home</a></li>
+        <li><a href="../index.html">Home</a></li>
         <li><a href="../About/About.html">About</a></li>
         <li><a href="../projects/Project.html">Projects</a></li>
       </ul>
@@ -194,7 +194,6 @@
           </div>
         </div>
       
-      <hr>
 
       
       </div>
@@ -210,22 +209,18 @@
           </div>
 
           <div class="footer-container">
-            <div class="msg-box">
+            <form action="https://api.web3forms.com/submit"class="msg-box" id="msg-box" method="POST">
               <label class="inputs">
-                <input type="text" placeholder="Your Name" />
-                <input type="email" placeholder="Your Email" />
-                <input type="tel" placeholder="Phone" />
+                <input type="hidden" name="access_key" value="119d0a2b-35e0-4eb7-8303-07c259f5f469">
+                <input name="name_of_person" type="text" placeholder="Your Name"  required/>
+                <input name="email" type="email" placeholder="Your Email" required />
+                <input name="Phone_number" type="tel" placeholder="Phone" required />
               </label>
               <div class="text-area">
-                <textarea
-                  placeholder="Type Here"
-                  name=""
-                  rows="6"
-                  id=""
-                ></textarea>
-                <button>Send a message I'll Reply</button>
+                <textarea placeholder="Type Here" name="" rows="6" id=""></textarea>
+                <button type="submit">Send a message I'll Reply</button>
               </div>
-            </div>
+            </form>
             <div class="footer-bottom">
               <div class="col col1">
                 <div class="logo">
