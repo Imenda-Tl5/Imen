@@ -1,375 +1,435 @@
-
-
-
-nav .nav-links{
-    margin-top: 0px;
-    }
-    
-.About-container{
-    display: flex;
-    flex-direction: column;
-}
 /* hero section */
+.hero{
+    background-color: #082b31;
+   padding: 30px 50px;
+   display: flex;
+   align-items: cente;
+   justify-content: center;
+   height: 300px;
 
-.About-container hr{
-    height: 2px;
-    background-color:#04091b;
-    width: 100%;
-    margin-top: -2px;
-    margin-bottom: -2px;
+   width: 100%;
+   padding-top: 100px;
 }
-.About-container .hero {
-    background-color: #17224d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.hero .header h1{
-    color: #17e9e1;
-    font-size: 50px;
-    text-transform: uppercase;
-    font-weight: 900;
-}
-.About-container .container{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    align-items: flex-start;
-    background-color: #fafafa;
-}
-
-.container .col-left{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    gap: 12px;
-    padding: 20px;
-    width: 35%;
-}
-.container .col-right{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.col-left img{
-   
-    width: 480px;
-    margin-top:50px;
-    border-radius: 23px;
-    object-fit: contain;
-}
-
-.col-right .content{
-    color: rgba(0, 0, 0, 0.719);
+h1{
+    color:#dcd7d9;
+    font-size: 55px;
 
 }
-.col-right .header h1{
-    font-size: 48px;
-    height: 100%;
-    margin-top: 0;
-    text-transform: capitalize;
-    color: #091235;
-    margin-bottom: 0px;
+/* contaier   */
+.About-container  .container {
+  display: flex;
+  padding: 23px;
+  align-items: flex-start;
 }
-@media (max-width:1257px) {
-    .container  .col-right{
-        transform: scale(.95);
-        padding: 10px;
-        margin-left: 12px;
-    }
-    .col-left img{
-        margin-left: 40px;
-        margin-top: 90px ;
-    }
+.About-container .container .col-left img{
+  max-width: 600px;
+  width: 100%;
+  border-radius: 12px;
 }
-@media (max-width:1180px) {
-    .container  .col-right{
-        transform: scale(.85);
-        padding: 10px;
-        margin-left: 22px;
-    }
-    .container .col-left{
-        padding-left: 52px;
-        padding-top: 52px;
-    }
-    .col-left img{
-        margin-left: 40px;
-        margin-top: 30px;
-        transform: scale(.95);
-    }
+.About-container .container .col-left{
+  margin-right: auto;
 }
-@media (max-width:1020px) {
-    .container{
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-    }
-    .container  .col-left{
-        width: 100%;
-    }
-    .col-left img{
-        width: 100%;
-        transform: scale(1);
-        margin-left: 0;
-        margin-right: 43px;
-        margin-top: -70px;
-    }
-    .container .col-right{
-        width: 100%;
-        transform: scale(1);
-    }
+.About-container .container .col-right {
+  padding: 12px;
+  max-width: 800px;
+  width: 100%;
 }
-@media (max-width:750px) {
-    .col-right .header h1{
-font-size: 38px;
-    }
+.About-container .container .col-right h1{
+  font-size: 23px;
+  color: #051c20;
+  border-bottom: 3px solid #94ec0e;
+  margin-bottom: 16px;
+  width: 100%;
 }
-@media (max-width:590px) {
-    .container{
-        align-items: flex-start;
-    }
-    .col-right .header h1{
-font-size: 30px;
-margin-right: 53px;
-    }
-    .col-right{
-        font-size: 15px;
-        color: rgba(36, 34, 34, 0.726);
-    } 
-    .col-left img{
-        width: 130%;
-    }
-}
-@media (max-width:380px) {
-    .About-container .hero h1{
-        font-size: 44px;
-    }
-
-
-
+.About-container .container .col-right h2{
+  font-size: 17px;
+  color: #051c20ec;
+  text-transform: capitalize;
+  font-weight: 100;
+  width: 100%;
 }
 
+/* contaner 2 */
 .container2{
-    padding: 30px 50px;
-    background-color: #9df8f5;
-}
-.container2 h2{
-    width: 90%;
-    margin-left: 60px;
-    font-size: 29px;
-    color: rgba(0, 0, 0, 0.719);
-}
-.container2 .content div{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 35px;
-    padding-right: 35px;
-    gap: 12px;
     
+    margin-top: 150px;
+    background-color:#295764;  
+    padding: 30px;
+   display: flex;
+   justify-content: space-between;
+   padding: 30px 50px;
+}
+.container2 .col-left{
+    display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+.container2 .col-left h2{
+font-size: 42px;
+color:#d8eca9;
+margin-bottom: 23px;
+border: 2px #94ec0e solid;
+padding: 6px 12px;
+ }
+.container2 .col-left p{
+    width: 78%;
+    font-size: 23px;
+    color: #d8eca99c;
 }
 
-.container2 .content div p{
-    font-size: 21px;
+
+.container2 .col-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 21px;
+}
+.container2 .col-right h3{
+    color: #d8eca9e0;
+    font-size: 27px;
+    margin-bottom: 12px;
+}
+.container2 .col-right p{
+    color: #04161aec;
     font-weight: 800;
-    color: rgba(0, 0, 0, 0.719);
+    font-size: 16px;
 }
-.container2 .content div .header{
-width: 100%;
-justify-content: flex-start;
-margin-bottom: 0;
-}
-
-
+/* conatibner 3 */
 
 .container3{
-    padding: 20px 50px;
-    display: flex;
-    justify-content: space-between;
-
+  display: flex;
+  gap: 9%;
+  padding: 12px;
 }
-.container3 .col-left,.col-right{
-    width: 50%;
-}
- 
-
-.container3 .header{
-    display: flex;
-    height: 70px;
-}
-.container3 .col-right {
-    display: flex;
-flex-direction: column;
-align-items: flex-start;    
+.container3 .col-left{
+  width: 30%;
 }
 
-@media (max-width:877px) {
-    .container2 .col .header h1{
-     font-size: 33px;
-    }
-    .container2 .content div{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .container2 .content div span .header{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
+.container3 .col-left img{
+  width: 100%;
+  object-fit: contain;
+  min-width: 350px;
 }
-@media (max-width:752px) {
-    
-    .container2 .content h2{
-        font-size:24px;
-    }    
-    .container2 .content{
-        padding-right: 40px;
-    }
-    .container2 .content h2{
-        margin-left: -20px;
-    }
-    .container2 .content div span p{
-         font-size: 17px;
-         margin-left: -30px;
-    }
-    .container2 .content div span .header{
-        transform: scale(.7);
-        width: 190%;
-        margin-left: -90px;
-    }
-    
+.container3 .col-left h1{
+  color: #295764;
+  font-size: 39px;
+  margin-top: 12px;
 }
-@media (max-width:1140px) {
-    .container3{
-        flex-direction: column;
-        align-items: center;
-    }
-    .container3 .col-left{
-        width: 100%;
-    }
-    .container3 .col-right{
-        width: 100%;
-    }
-    .container3 .col-left img {
-    width: 800px;
-    }
+.container3 .col-left h3{
+  font-size: 14px;
+  color: #020f13d8;
+  line-height: 1.5;
+  margin-top: 12px;
+}
+.container3 .col-right{
+width: 60%;
+}
+.container3 .col-right h1{
+  font-size: 30px;
+  color: #122a31;
+  text-transform: uppercase;
+  margin-bottom:0;
+  border: 1px solid #94ec0e;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+.container3 .col-right h2{
+  border: 1px solid #94ec0e;
+}
+.container3 .col-right h2 p{
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.856);
+  padding: 12px;
+ }
+/* education container */
+.education-container{
+  padding: 40px 50px;
+  display: flex;
+  background-color: #009578;
 
-@media (max-width:1020px) {
-    .container3 .col-left img {
-        width: 100%;
-        margin-top: 30px;
-        }
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+  .event-date{
+    text-align: left;
+    margin: 0 12px 12px 12px;
+    font-size: 20px;
+    font-weight: 900;
+  }
+.timeline-component{
+  margin: 0px 20px 0px 20px;
+  display: grid;
+  grid-template-columns: 1fr 6.5px 1fr;
 }
-/* timeline  */
+.event-date--left,.event-date--right{
+  margin-top: 0;
+  margin: 12px;
+}
+.event-date--right{
+  text-align: right;
+  font-size: 21px;
+  font-weight: 900;
+}
+.timeline-middle{
+  position: relative;
+  background: #fff;
+}
+
+.timeline-middle .timeline--point{
+  top: 0;
+  height: 13px;
+  width: 13px;
+  background-color: #082b31;
+  position: absolute;
+  border-radius: 3px;
+  left: 50%;
+  transform: translateX(-52%);
+}
+.timeline--point--bottom{
+  bottom: 0;
+  height: 13px;
+  width: 13px;
+  background-color: #082b31;
+  position: absolute;
+  border-radius: 3px;
+  left: 50%;
+  transform: translateX(-52%)
+}
+.timeline .content{
+  background-color: rgba(255,255,255, 0.2);
+  margin: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  border-radius: 8px;
+}
+.timeline-component p{
+  color: #082b31;
+line-height: 1.7;
+}
+.education-container .header h1{
+border-bottom: 3px solid #082b31;
+margin-bottom: 15px;
+font-size: 39px;
+text-transform: uppercase;
+}
 @media (max-width:990px) {
-    .education .header{
-        transform: scale(.9);
-        display: flex;
-        justify-content: space-between;
-    }
- .education .header h1{
-    font-size: 41px;
-    margin-right: 0;
- }   
-}
-@media (max-width:425px) {
-    .education .header h1{
-        font-size: 31px;
-        margin-right: 0;
-     }
+ 
+ 
+ .container2 .col-left p{
+  font-size: 19px;
+  line-height: 1.3;
+ }
+ 
+ .container2 .col-right p{
+  font-size: 15px;
+  line-height: 1.3;
+ }
 
-    .container3 .col-left img {
-        width: 95vw;
-        margin-top: 30px;
-        margin-left: -50px;
-        }
-    }
-.education{
-    background-color: #9df8f55e;
-    margin-bottom: -25px;
+
+ .container3 .col-left img{
+ max-width: 350px;
 }
-.timeline{
-    display: flex;
+ .container3 .col-right h1{
+  font-size: 21px;
+}
+.container3 .col-right h2{
+  max-width: 560px;
+  width: 100%;
+}
+.container3 .col-right h2 p{
+  font-size: 15px;
+}
+
+  .timeline .timeline-component .content h2{
+  font-size: 19px;
+ } 
+  .timeline-component  p{
+  font-size: 12px;
+ }
+
+}
+@media (max-width:950px) {
+  .container3 {
     flex-direction: column;
-    align-items: flex-start;
-    padding: 20px 40px;
-}
-.timeline div{
+  }
+  .container3 .col-left{
     display: flex;
     width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  .container3 .col-left img{
+    width: 600px;
+    margin-right: 12px;
+    border-radius: 12px;
+  }
+  .container3 .col-left h3{
+    width: 300px;
+  }
+  .container3 .col-right {
+    width: 100%;
+  }
+  .container3 .col-right h2{
+    width: 100%;
+    max-width: 700px;
+  }
+  .container3 .col-right p{
+    width: 100%;
+  }
 }
-.timeline div span{
-    background-color: greenyellow;
-    font-size: 23px;
-    font-weight: 800;
-    height: 190px;
-    width: 190px;
-    border-radius: 50%;
+@media (max-width:900px) {
+  .container2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .container2 .col-left p{
+    max-width: 512px;
+    width: 100%;
+  }
+}
+@media (max-width:778px) {
+
+  .About-container .container {
+    padding: 23px;
+    margin-left: 24px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+  }
+  .About-container .container img{
+    margin-top: 12px;
+    margin-left: 21px;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 12px;
+  }
+  .About-container .container .col-left{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.timeline div h2{
-    width: 590px;
-    border: 2px solid #091235;
-    border-top: none;
-    margin-left: 30px;
-    padding: 12px 34px;
-    border-radius: 20px;
-    color: rgba(29, 28, 28, 0.836);
-}
-.timeline div h2 p{
-    font-size: 29px;
-    background-color: #091235;
+  }
+  .About-container .container  .col-right {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 12px;
-    margin-bottom: 54px;
-    color: white;
+    margin-top: 12px;
+    margin-left: 2px;
+    width: 100%;
+    }
+    .About-container .container .col-right h1{
+      font-size: 21px;
+      margin-bottom: 10px;
+      border-bottom: 3px solid #94ec0e;
+       color: #051c20;
+    }
+    .About-container .container .col-right h2{
+      font-size: 15px;
+      color: #051c20ec;
+      text-transform: capitalize;
+    }
+  
+  /*084734  */
+
 }
-.timeline .row2, .row4{
-justify-content: flex-end;
+@media (max-width:758px) {
+.education-container .header h1{
+  font-size: 26px;
+  padding-bottom: 7px;
 }
-.timeline .row1, .row3{
-    flex-direction: row-reverse;
-    gap: 34px;
-    justify-content: flex-end;
+  .timeline-component{
+display: flex; 
+align-items: flex-start;
+justify-content: space-between;
+position: relative;
+padding: 12px;
+}  
+.timeline-component .event-date{
+  font-size: 18px;
+  position: absolute;
+  left: 34%;
+  top: 13px;
+  background-color: #082b3165;
+  padding-left:  12px;
+  padding-right: 12px;
+  color: #ffffffc2;
+  
 }
 
-@media (max-width:860px) {
- .timeline div h2{
-width: 100%;
-padding-right: 12px;
+.timeline-component .timeline-middle .timeline-bottom{
+
+  bottom: 0;
+  height: 13px;
+  width: 13px;
+  background-color: #082b31;
+  position: absolute;
+  border-radius: 3px;
+  left: 50%;
+  transform: translateX(-52%)
+  
 }
-    .timeline div, .timeline .row1{
-        flex-direction: column;
-    }
-    .timeline .row1,.row3{
-        align-items: flex-end;
-    }
-.timeline{
-    padding-right: 73px;
+.timeline-middle{
+display: none;
+}
+
+.education-container{
+  padding: 30px 0;
+}
+.timeline-component .content{
+  margin-bottom: -24px;
 }
 }
-@media (max-width:475px) {
-    .timeline div,.timeline .row1{
-        transform: scale(.9);
-        align-items: center;
-    }
-    .timeline div span{
-        width:150px;
-        height: 150px;
-        font-size: 19px;
-    }
-    .timeline div h2{
-font-size: 21px;
-width: 320px;
-padding-right: 7px;
-    }
-    .timeline div h2 p{
-  font-size: 18px;
-    }
-    
+@media (max-width:679px) {
+   .container3 .col-left{
+    flex-direction: column;
+   }
+ .container3 .col-left img{
+  max-width: 600px;
+  width: 100%;
+ }
+  .container3 .col-left h3{
+    max-width: 400px;
+    width: 100%;
+  }
 }
+@media (max-width:518px) {
+.container2 .col-left h2{
+  font-size: 34px;
+  padding-bottom: 0;
+}
+.container2 .col-left p{
+  font-size: 17px;
+  transform: scale(.9);
+  margin-top: -23px;
+  margin-left: -8px;
+}
+.container2 .col-right p{
+transform: scale(.9);
+margin-top: -23px;
+margin-left: -14px;
+line-height: 1.4;
+font-size: 15px;
+font-weight: 400;
+}
+.education-container .header h1{
+  transform: scale(.8);
+} 
+ 
+}
+/*
+Secondary Education
+I completed my secondary education at Mufulira Secondary School, where I developed a strong foundation in science and mathematics. My time here cultivated my analytical thinking and problem-solving skills, sparking a curiosity for technology and its applications in the real world.
+2023–2024:
+
+Introduction to Programming
+In 2021, I embarked on my programming journey, starting with learning the basics of coding. Python was the first language I mastered, as it provided an accessible yet powerful way to understand the fundamentals of programming. During this time, I gained a solid grasp of functions, data types, data structures, and other essential programming concepts. This period marked the beginning of my passion for software development, as I explored how programming could solve problems and create innovative solutions.
+2024–2025:
+
+Tertiary Education
+In 2023, I enrolled at Mulungushi University, where I am currently pursuing a degree in Computer Science. This academic journey has deepened my understanding of software development, algorithms, and computational theory. It has also exposed me to hands-on projects that enhance both my theoretical knowledge and practical skills. My university experience has strengthened my commitment to building a career in technology, with a focus on creating impactful solutions.
+2025–Present:
+
+Continuous Learning and Growth
+My journey in technology continues as I expand my expertise, refine my programming skills, and stay updated with the latest trends in the industry. I am committed to mastering new tools, technologies, and methodologies to enhance my ability to develop innovative, efficient, and scalable solutions for the modern world. */
