@@ -6,7 +6,7 @@
     margin: 0;
 }
 /* body css */
-body{
+body,html{
     overflow-x: hidden;
 }
 /* navigation css */
