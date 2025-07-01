@@ -6,11 +6,9 @@
     margin: 0;
 }
 /* body css */
-html, body {
-    max-width: 100vw;
+body{
     overflow-x: hidden;
 }
-
 /* navigation css */
 nav{
     display: flex;
@@ -119,12 +117,11 @@ border-radius: 6px;
 width: 120px;
 height: 120px;
 border: 4px solid #94ec0e;
+margin-bottom: -19px;
 }
 footer .header{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
+    align-items: flex-start;
 }
 footer .header h1{
     font-size: 33px;
@@ -133,6 +130,7 @@ footer .header h1{
 footer .header p{
     height: 7px;
     width: 14px;
+    margin-top: 12px;
     display: inline-block;
     background-color: #94ec0e;
 }
@@ -202,7 +200,7 @@ form .text-area{
     justify-content: space-between;
     margin: 20px;
 margin-top: 40px;
-gap: 30px;
+gap: 40px;
 flex-wrap: wrap;
 
 }
@@ -210,9 +208,10 @@ flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-left: 56px;
 }
 .footer-bottom .col .header{
-    margin-bottom: 50px;
+    margin-bottom: 8px;
 }
 .footer-bottom .col .header p{
     height: 4px ;
@@ -224,14 +223,21 @@ flex-wrap: wrap;
     margin-bottom: 18px;
     width: 70%;
     color: #f1d4af;
-    font-weight: 600;
+    font-weight: 300;
 }
 .footer-bottom .col1{
     margin-left: 67px;
 }
 .footer-bottom .col1 img{
+margin-left: -44px;
 width: 150px;
 height: 150px;
+}
+.footer-bottom .col ul{
+    margin-left: -4px;
+}
+.footer-bottom .col ul li{
+    margin: 9px;
 }
 .footer-bottom .col ul li:hover{
     color: #75be08;
@@ -243,7 +249,6 @@ height: 150px;
     width: 100%;
     margin-top: 36px;
     color:#fd8916;
-    margin-bottom: 8px;
 }
 .footer-bottom .col1 button{
     max-width: 170px;
@@ -253,6 +258,7 @@ height: 150px;
     border: 2px solid #94ec0e;
     font-size: 19px;
     padding: 8px;
+    margin-top: 20px;
     cursor: pointer;
 }
 .footer-bottom .col1 button:hover{
@@ -320,9 +326,12 @@ height: 150px;
     margin-bottom: 12px;
     margin-left: -24px;
    }
+   .footer-bottom .col1 img{
+    margin-left: 18px;
+   }
 }
 
-@media (max-width:768px) {
+@media (max-width:827px) {
     .nav-links{
         position: absolute;
         display: flex;

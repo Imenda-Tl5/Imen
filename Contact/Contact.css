@@ -1,0 +1,76 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-container .header{
+        background-color: #082b31;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 200px;
+       width: 100%;  
+    }
+
+.contact-container .header h1 {
+    font-size: 41px;
+    color: white;
+    text-align: center;
+}
+
+.contact-container form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    border: 2px solid #082b31;
+    margin-top: -12px;
+    padding: 9px;
+    border-radius: 12px;
+}
+
+.contact-container form label input{
+   border: 2px solid #082b31;
+}
+.contact-container form label{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.contact-container .disclaimer{
+    display: flex;
+    margin-bottom: 32px;
+    width: 100%;
+}
+.contact-container .disclaimer img{
+    width: 160px;
+     border-radius: 12px;
+     flex-basis:80px;
+     margin-right: 40px;
+}
+.contact-container .disclaimer p{
+    padding: 7px;
+font-size: 15px;
+flex-basis: 60%;
+color: #082b31;
+text-transform: capitalize;
+}
+.contact-container form .text-area{
+    border: 2px solid #082b31;
+    margin-top: 12px;
+    border-radius: 12px;
+    width: 100%;
+}
+.text-area button{
+    max-width: 990px;
+    border-radius:0 0 12px 12px ;
+    width: 100%;
+}
+.text-area button:hover{
+    background-color: #082b31;
+    color: orange;
+}
