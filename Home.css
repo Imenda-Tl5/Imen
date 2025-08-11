@@ -227,13 +227,12 @@ gap: 12px;
     align-items: center;
 }
 .project-container .project{
-    width: 75%;
+    width: 85%;
     border: 2px solid #0c2247;
     margin-bottom: 30px;
     border-radius: 12px;
     position: relative;
     object-fit: contain;
-    height: 500px;
     overflow-x: hidden;
 
 }
