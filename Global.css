@@ -6,7 +6,7 @@
     margin: 0;
 }
 /* body css */
-body,html{
+body{
     overflow-x: hidden;
 }
 /* navigation css */
@@ -121,7 +121,12 @@ margin-bottom: -19px;
 }
 footer .header{
     display: flex;
+    justify-content: center;
+}
+footer .header div{
+    display: flex;
     align-items: flex-start;
+    gap: 8px;
 }
 footer .header h1{
     font-size: 33px;

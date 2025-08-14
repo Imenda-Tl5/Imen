@@ -194,108 +194,66 @@ gap: 12px;
 }
 
 /* projects section */
-
-.portfolio{
-    padding-top: 40px;
+.portfolio {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#fadc8bb2 ;
-}
-.portfolio .header h1{
-    font-size: 35px;
-    color: #295764;
-}
-.portfolio .header {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 21px;
-}
-.portfolio .header p{
-    height: 4px;
-    width: 16px;
-    background-color:#0c2247;
-    display: inline-block;
+    padding-top: 24px;
 }
 .project-container{
-    width: 100%;
-    margin: 23px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
 
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .project-container .project{
+    margin-bottom: 23px;
+    max-width: 1200px;
     width: 100%;
-    max-width:250px;
-    border: 2px solid #0c2247;
-    margin-bottom: 30px;
+    border: 2px solid black;
+    padding: 8px ;
     border-radius: 12px;
     position: relative;
-    object-fit: contain;
-    overflow-x: hidden;
-
 }
-.project img{
-    left: 0;
+
+.project-container .project img{
     width: 100%;
-    height:100%;
     object-fit: contain;
 }
-
-.project .project-details{
-    background-color: #2d565275;
+.project-container .project .project-details{
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
+    background-color: #93ec0eb0;
     height: 100%;
-    
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 23px;
+    padding-left: 40px;
 }
-
-.project-details {
-    padding: 20px;
-    padding-top: 50px;
-    transform: translateX(100%);
-    transition: .7s;
-}
-.project:hover .project-details{
-    transform: translateX(0%);
-    transition: .9s;
-}
-.project-details h3{
-    color:#0c2247;
+.project-container .project .project-details h3{
     font-size: 45px;
-    text-transform: uppercase;
+    color: #0c2247;
+    margin-bottom: -12px;
 }
-.project-details p{
-width: 60%;
-margin-top: 21px;
-margin-bottom: 21px;
-color: #f1d4af;
-font-size: 28px;
+.project-container .project .project-details button{
+    padding: 7px;
+    background-color: #0c2247;
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    margin-top: 8px;
+    margin-bottom: 8px
 }
-.project-details button{
-    padding: 8px 16px;
-    border: none;
-    outline:none;
-    font-size: 21px;
-    border-radius: 12px 0px 12px 0px;
-    background-color: #94ec0e;
-    border: 1px solid #082b31;
+.project-container .project .project-details p{
+    color:#0c2247;
+    max-width: 500px;
+    margin-top: 23px;
+    margin-bottom: 18px;
+    font-size: 19px;
+    font-weight: 500;
+    width: 100%;
 }
-.project-details button:hover{
-    color: aqua;
-    background-color: #082b31;
-    transition: .5s;
-    cursor: pointer;
-}
-
-
-
-
 /* footer  css is in  global.css*/
 
 
